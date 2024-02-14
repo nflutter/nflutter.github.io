@@ -1,13 +1,5 @@
 # NFlutter Documentation
 
-#### NFlutter and Dart side by side
-          
-<img src="https://nflutter.github.io/assets/images/main_nflutter_dart.png"/>
-
-#### NFlutter plugin Tool Windows
-<img src="https://nflutter.github.io/assets/images/tool_windows.png"/>
-
-
 ## Introduction
 
 <b>NFlutter</b> is a Code Generation Domain-Specific Language (DSL) tailored specifically for Flutter development. It
