@@ -1,11 +1,11 @@
 # Documentation
 
 
-#### NFlutter plugin on Jetbrains Marketplace
+##### NFlutter plugin on Jetbrains Marketplace
 [![Crad](assets/images/card.png)](https://plugins.jetbrains.com/plugin/23765-nflutter)
 
 
-#### Flutter Hello World counter written with NFlutter
+##### Flutter Hello World counter written with NFlutter
 ![NFlutter](assets/images/nflutter.png)
 
 
