@@ -2,7 +2,7 @@
 
 ![NFlutter](assets/images/nflutter.png)
 
-![Crad](assets/images/card.png)(https://plugins.jetbrains.com/embeddable/install/23765")
+[![Crad](assets/images/card.png)](https://plugins.jetbrains.com/plugin/23765-nflutter)
 
 ## Introduction
 
