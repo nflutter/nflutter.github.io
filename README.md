@@ -76,7 +76,7 @@ This will demonstrate how NFlutter simplifies the Flutter code while maintaining
 
     - Write the following NFlutter code into **`simple.nf`**:
 
-```
+```dart
 import 'package:flutter/material.dart';
 
 class Simple extends StatelessWidget {
@@ -133,7 +133,7 @@ the `<nf></nf>` **Tag**.
 
 - Example in NFlutter:
 
-```
+```dart
 return <nf>
   Text = 'hello'
 </nf>
@@ -141,7 +141,7 @@ return <nf>
 
 - Resulting Dart Code:
 
-```
+```dart
 return Text('hello');
 ```
 
@@ -183,13 +183,13 @@ code directly within an NFlutter code section.
 
 - **Using `<dart>` Tag:**
 
-```
+```dart
 Text = <dart> (a > b) ? 'a' : 'b' </dart>
 ```
 
 - **Equivalent NFlutter Syntax Without <dart> Tag:**
 
-```
+```dart
 Text = ((a > b) ? 'a' : 'b')
 ```
 
@@ -225,7 +225,7 @@ There are two ways to place arguments relative to the `=` sign:
 
 - Example:
 
-```
+```dart
 Text = 'This is NFlutter' maxLines: 2
 ```
 
@@ -237,7 +237,7 @@ Text = 'This is NFlutter' maxLines: 2
 
 - **Example:**
 
-```
+```dart
 Text =
   'This is NFlutter'
   maxLines: 2
@@ -266,7 +266,7 @@ Understanding its usage is essential for handling collections efficiently in NFl
 
 - **Example:**
 
-```
+```dart
 Column =
   children: []=
     Text = 'hello'
@@ -302,7 +302,7 @@ values within the DSL.
 
 - **Example:** (notice the switch to dart by using brackets)
 
-```
+```dart
 style: Theme.of(context).primaryTextTheme.titleLarge
 ```
 
@@ -321,7 +321,7 @@ syntax.
 
 - **Example:**
 
-```
+```dart
 //Arrow Lambda
 onTap: () => context.go("/page1")
 //Braces Lambda
@@ -351,7 +351,7 @@ might be preferred or required.
 
 - Dart brackets block in NFlutter Collection:
 
-```
+```dart
 Column =
  children: []=
    const Text = 'Welcome to NFlutter'
@@ -363,19 +363,19 @@ Column =
 
 - Dart brackets block in NFlutter Expression:
 
-```
+```dart
 Navigator.of(context, rootNavigator: true).push<void> =
 ```
 
 - Dart collection item by index:
 
-```
+```dart
 TextStyle = color: Colors.grey[800]
 ```
 
 - Complex Dart code wrapped by brackets:
 
-```
+```dart
 style: TextStyle =
   background: (Paint()
     ..color = Colors.red
@@ -387,7 +387,7 @@ style: TextStyle =
 
 - Dart code in braces:
 
-```
+```dart
 IconButton =
   icon: const Icon = Icons.search
   tooltip: 'Search'
@@ -398,7 +398,7 @@ IconButton =
 
 - Explicit Dart code in <dart> tag:
 
-```
+```dart
 <dart> if(10>11) Text('a') else Text('b') </dart>
 ```
 
