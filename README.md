@@ -126,7 +126,7 @@ NFlutter also includes a handy Preview Pane feature to visualize the Dart code g
 
 - This tool window will display the Dart code that corresponds to your NFlutter file.
 
-##
+
 
 ## NFlutter Grammar
 
