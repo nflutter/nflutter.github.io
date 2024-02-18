@@ -586,6 +586,4 @@ Here's some of IDE features that are compatible with NFlutter:
 
 ## **Support and Contact Information**
 
-- Resources for finding help and support: **[github.com/nflutter/nflutter](https://github.com/nflutter/nflutter)**
-
 - Contact details for the NFlutter development team:  **[neat.flutter@gmail.com](mailto:neat.flutter@gmail.com)**
