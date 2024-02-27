@@ -11,7 +11,7 @@
 
 ## Introduction to NFlutter
 
-<h4>NFlutter is a DSL (Mini Language) designed for Flutter Widgets development.</h4>
+### NFlutter is a DSL (Mini Language) designed for Flutter Widgets development.
 **NFlutter** acts as a powerful code generator, transforming concise NFlutter code into standard Dart (gen.dart file), optimizing the creation of Flutter widgets and nesting structures.
 <br>
 Drawing inspiration from <b>F#</b>, <b>Python</b> and other indentation-based languages, NFlutter simplifies syntax by eliminating <b>brackets</b> and <b>commas</b>, making Flutter/Dart development more intuitive and efficient.
