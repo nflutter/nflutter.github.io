@@ -137,7 +137,7 @@ the `<nf></nf>` **Tag**.
 
 - Marks the start and end of an NFlutter DSL code section.
 
-- The code written within** **`<nf></nf>` is automatically transpiled into Dart code. By default, a semicolon is emitted
+- The code written within **`<nf></nf>`** is automatically transpiled into Dart code. By default, a semicolon is emitted
   at the end of the transpiled Dart code.
 
 - Example in NFlutter:
@@ -186,7 +186,7 @@ code directly within an NFlutter code section.
 - **Use Cases:** It's particularly useful for scenarios where Dart-specific syntax or functionality is needed that might
   not be directly supported or easily expressed in NFlutter.
 
-- **Selective Use:** While the** **`<dart>` tag is available, it's often not necessary to use it. NFlutter's seamless
+- **Selective Use:** While the **`<dart>`** tag is available, it's often not necessary to use it. NFlutter's seamless
   integration with Dart means that in most cases, simply wrapping an expression in brackets will revert to standard Dart
   syntax.
 
