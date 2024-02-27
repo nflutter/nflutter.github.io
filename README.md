@@ -2,22 +2,21 @@
 
 
 ##### NFlutter plugin on Jetbrains Marketplace
-[![Crad](assets/images/card.png)](https://plugins.jetbrains.com/plugin/23765-nflutter)
+[![Card](assets/images/card.png)](https://plugins.jetbrains.com/plugin/23765-nflutter)
 
 
-##### Flutter Hello World counter written with NFlutter
+##### Example: Flutter Hello World counter written with NFlutter
 ![NFlutter](assets/images/nflutter.png)
 
 
-## Introduction
+## Introduction to NFlutter
 
-<b>NFlutter</b> is a Code Generation Domain-Specific Language (DSL) tailored specifically for Flutter development. It
-transforms NFlutter DSL files into regular Dart code in a **gen.dart** file. This approach enables developers to write
-in a
-more concise syntax while still producing standard Dart code that is executable by Flutter.
-
-NFlutter is inspired by F#, YAML and other indentation-based languages, it simplifies Flutter/Dart syntax by replacing
-brackets and commas with more intuitive alternatives reducing syntactical clutter.
+<h4>NFlutter is a DSL (Mini Language) designed for Flutter Widgets development.</h4>
+**NFlutter** acts as a powerful code generator, transforming concise NFlutter code into standard Dart (gen.dart file), optimizing the creation of Flutter widgets and nesting structures.
+<br>
+Drawing inspiration from <b>F#</b>, <b>Python</b> and other indentation-based languages, NFlutter simplifies syntax by eliminating <b>brackets</b> and <b>commas</b>, making Flutter/Dart development more intuitive and efficient.
+<br>
+Ideal for developers focused on productivity and code clarity in Flutter projects.
 
 ### The N in NFlutter
 
@@ -25,7 +24,7 @@ Initially, NFlutter stood for ‘No brackets, No commas’, or ‘No distraction
 syntactical clutter. However, over time, it has come to represent ‘Neat Flutter’, reflecting its effectiveness in
 creating neat and clean code.
 
-### Key Features
+## Key Features
 
 - **Fluent, Clutter-Free Syntax:** A streamlined approach to coding that reduces the need for excessive syntactical
   elements.
